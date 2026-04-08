@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { productAPI } from '../../api/productAPI';
-import { useCart } from '../../Contexts/CartContext';
-import { useAuth } from '../../Contexts/AuthContext';
-import { Button } from '../../uti/button';
-import { Badge } from '../../uti/badge';
-import { Card, CardContent } from '../../uti/card';
-import { Skeleton } from '../../uti/skeleton';
+import { productAPI } from '../../../api/api';
+import { useCart } from '../../../Contexts/CartContext';
+import { useAuth } from '../../../Contexts/AuthContext';
+import { Button } from '../../../uti/button';
+import { Badge } from '../../../uti/badge';
+import { Card, CardContent } from '../../../uti/card';
+import { Skeleton } from '../../../uti/skeleton';
 import { toast } from 'sonner';
 import {
   ShoppingCart,
